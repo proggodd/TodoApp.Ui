@@ -10,6 +10,12 @@ export class TodoService {
     title:'test title',
     description:'test discription',
     status:'OPEN',
+  },
+  {
+    id:2,
+    title:'test2 title',
+    description:'test2 discription',
+    status:'DONE',
   }];
   constructor() { }
 
