@@ -11,6 +11,6 @@ export type ITodoStatus = ['OPEN','Done'];
   styleUrl: './todo-card.component.css'
 })
 export class TodoCardComponent {
-  @Input() type: ITodoType ='OPEN';
+  @Input() type : ITodoType ='OPEN';
   @Input() todo!:ITodo
 }

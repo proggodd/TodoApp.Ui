@@ -5,12 +5,15 @@ import { ITodo } from '../models/todo.model';
   providedIn: 'root'
 })
 export class TodoService {
-  const todos:ITodo = [{
+   todos:ITodo[] = [{
     id:1,
     title:'test title',
     description:'test discription',
-    status:'OPEN'
+    status:'OPEN',
   }];
   constructor() { }
 
+  getAllTodo(){
+    return this.todos;
+  }
 }
